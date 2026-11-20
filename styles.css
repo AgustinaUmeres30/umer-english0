@@ -420,3 +420,32 @@ h2, .recognition h2, .approach h2, .services h2, .testimonials h2, .resource h2,
   .hero-note { margin-top: 28px; }
   .section-pad { padding-top: 32px; padding-bottom: 32px; }
 }
+
+.service-price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 18px;
+  background: #f0f9fc;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price-label {
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  color: #555;
+  font-weight: 600;
+}
+
+.price-ars {
+  font-size: 26px;
+  font-weight: 700;
+  color: #158adb;
+}
+
+.price-usd {
+  font-size: 13px;
+  color: #666;
+}
